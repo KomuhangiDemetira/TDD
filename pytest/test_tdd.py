@@ -1,4 +1,4 @@
-import pytest
+
 
 def product(x, y):
     return x*y
