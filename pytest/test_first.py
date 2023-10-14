@@ -1,9 +1,20 @@
+# def multiply(a, b):
+#     return  a*b
+
+
+# def test_multiply():
+#     result =multiply(1, 1)
+#     assert  result  == 1
+
+#     assert multiply(2, 2) == 4
+
 def multiply(a, b):
-    return  a*b
-
-
+        if a ==3 and  b==3:
+            return 10
+        return a + b
+    
 def test_multiply():
-    result =multiply(1, 1)
-    assert  result  == 1
+        result=multiply(1,1)
+        assert result==1
+        assert multiply(3,3) == 9
 
-    assert multiply(2, 2) == 4
