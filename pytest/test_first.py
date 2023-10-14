@@ -1,2 +1,4 @@
-def test_mult():
-    assert mult (1,1) == 2
+def multiply( a,b):
+    return a*b
+def test_multiply():
+    assert multiply (1,1) == 1
