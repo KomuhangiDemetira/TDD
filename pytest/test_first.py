@@ -1,14 +1,14 @@
 def multiply(a, b):
-    # if a ==3 and  b==3:
-    #     return 10
     return a * b
 
 
 def test_multiply():
     result = multiply(1, 1)
     assert result == 1
+
     result2 = multiply(2, 2)
     assert result2 == 4
+    
     result3 = multiply(3, 3)
     assert result3 == 9
 
@@ -16,4 +16,4 @@ def test_multiply():
     assert result4 == 16
 
     result5 = multiply(23, 45)
-    assert result5 == 23*45
+    assert result5 == 23 * 45
